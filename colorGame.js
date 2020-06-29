@@ -25,13 +25,6 @@ function setupModeButtons(){
             modeButtons[1].classList.remove("selected");
             this.classList.add("selected");
             this.textContent === "Easy" ? numSquares = 3: numSquares = 6;
-            // ternary operator^ does the same as below:
-            // if(this.textContent === "Easy"){
-            //     numSquares = 3;
-            // }
-            // else {
-            //     numSquares = 6;
-            // }
             reset();
         });
     }
