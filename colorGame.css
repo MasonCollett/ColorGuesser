@@ -1,0 +1,73 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    /* adds browser support: */
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+h1 {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 150%; 
+}
+
+#stripe {
+    background: white;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+.selected {
+    color:white;
+    background: steelblue;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 900;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    /* whenever anything changes have it take this long: */
+    transition: all 0.30s; 
+    outline: none;
+}
+
+button:hover {
+    color:white;
+    background: steelblue;
+}
+
+#colorDisplay {
+    font-size: 3.0rem;
+}
