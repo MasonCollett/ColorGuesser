@@ -3,7 +3,7 @@ Game where the user guesses which colored square corresponds to the random RGB v
 
 Game can be played here: https://color-guesser.herokuapp.com/colorGame.html
 
-## Play through
+## Playthrough
 
 ![Game gif](https://github.com/MasonCollett/ColorGuesser/blob/master/ColorGuesser.gif)
 
